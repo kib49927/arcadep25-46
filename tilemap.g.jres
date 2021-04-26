@@ -1,0 +1,31 @@
+{
+    "transparency16": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "層級1": {
+        "id": "層級1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAwYTAwMDcwMDAxMDIwMjAyMDIwMjAyMDIwMjAzMDcwYTA5MDkwYTBhMDkwOTBhMDQwNzBhMDkwOTBhMDkwOTA5MGEwNDA3MDkwOTA5MDkwYTA5MDkwOTA0MDcwYTA5MGEwOTA5MDkwYTA5MDQwNzBhMDkwOTA5MDkwYTA5MDkwNDA2MDgwODA4MDgwYTA4MDgwODA1MDAwMDAwMDAwMDIwMDAyMjAwMDIyMDAwMDIwMDAyMDAwMDIwMDAwMDIwMjAwMDIwMDAyMDAwMDAwMjAwMDAwMDIwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.castle.tilePath1",
+            "sprites.castle.tilePath2",
+            "sprites.castle.tilePath3",
+            "sprites.castle.tilePath6",
+            "sprites.castle.tilePath9",
+            "sprites.castle.tilePath7",
+            "sprites.castle.tilePath4",
+            "sprites.castle.tilePath8",
+            "sprites.castle.tilePath5",
+            "sprites.builtin.forestTiles0"
+        ],
+        "displayName": "層級1"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myTiles"
+    }
+}
