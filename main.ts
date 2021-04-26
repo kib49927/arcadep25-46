@@ -3,6 +3,13 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         tiles.setTileAt(value, sprites.castle.tileDarkGrass3)
     }
 })
+info.onCountdownEnd(function () {
+    if (info.score() < 10) {
+        game.over(false)
+    } else {
+        game.over(true, effects.confetti)
+    }
+})
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
     info.changeScoreBy(1)
     tiles.placeOnRandomTile(食物, sprites.castle.tilePath5)
@@ -58,6 +65,7 @@ controller.moveSprite(小明)
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Food)
 食物.setPosition(10, 100)
+info.startCountdown(20)
 game.onUpdate(function () {
     if (Math.percentChance(25)) {
         雪花 = sprites.createProjectileFromSide(img`
